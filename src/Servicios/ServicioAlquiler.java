@@ -33,8 +33,8 @@ public class ServicioAlquiler {
         }
     }
 
-    public String listarPeliculaAlquilada() {
-        return this.alquiler.getPelicula().getTitulo();
+    public Pelicula listarPeliculaAlquilada() {
+        return this.alquiler.getPelicula();
     }
 
     public boolean buscarAlquilerPorFecha(Date fecha) {
